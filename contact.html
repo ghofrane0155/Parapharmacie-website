@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Parapharmacie website</title>
+    <link rel="stylesheet" type="text/css" href="style.css"><!-- pour relier votre fichier css-->
+    <script src="script.js"></script> <!-- relier le fichier java script-->
+</head>
+<body>
+    <!----barre de navigation---->
+    <header>
+		<nav>
+			<a href="index.html"><h2><span>Para</span>pharmacie</h2></a>
+            <a href="index.html#produit">Produits</a>
+            <a href="marque.html">Les Marques</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
+            <a href="signin.html">Sign in</a>
+		</nav>
+    </header>
+
+    	<!-- Contact-Section-End -->
+        <section class="contact">
+            <div class="forms">
+            <h4>Write your message here</h4>
+                <input type="text" class="form-control" id="inputName" placeholder="Your Name">
+                <input type="email" class="form-control" id="inputEmail" placeholder="Your Mail">  
+                <p id="nom"></p> <p id="email-c"></p>
+                <input type="text" class="form-control" id="inputnumber" placeholder="Your Number">   
+                <input type="text" class="form-control" id="inputSubject" placeholder="Subject"> 
+                <p id="number"></p><p id="subject"></p>   
+                <textarea id="inputcomment" class="form-control message" placeholder="Message" rows="9"></textarea>
+                <p id="comment"></p>
+                <button type="submit" onclick="test()">Send Message</button>
+            </div>
+
+                <div class="address_text">
+                    <div class="single_address">
+                        <h4>Give us a call or write to us about anything</h4>
+                        <p><span>Tel</span></p>
+                        <p>0 800 125 556 8944</p>
+                        <p>0 800 125 556 8945</p>
+                    </div>
+                    <div class="single_address">
+                        <p><span>Email</span></p>
+                        <p>info@gmail.com</p>
+                    </div>
+                    <div class="single_address">
+                        <p><span>Address:</span></p>
+                        <p>102-104 Avenue des Champs-Élysées,</p>
+                        <p>75008 Paris, France</p>
+                    </div>
+                    <div class="single_address">
+                        <p><span>Web:</span></p>
+                        <p>www.parapharmacie.com</p>
+                    </div>
+                </div>
+        </section>
+	<!-- Contact-Section-End -->
+
+</body>
+<footer>
+    <div class="footer">
+        <p>COPYRIGHT © 2022. ALL RIGHTS RESERVED.</p>
+        <div class="logos">
+            <a href="https://www.facebook.com" target="_blank"><img src="image/Facebook Logo.png"></a>
+            <a href="https://www.twitter.com" target="_blank"><img src="image/twitter_logo.jpg"></a>
+            <a href="https://www.instagram.com" target="_blank"><img src="image/insta-logo.png"></a>
+        </div>
+    </div>
+</footer>
+</html>
